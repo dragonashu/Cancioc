@@ -1,6 +1,7 @@
 <?php
 require 'inc/functions.php';
 
+
 $pageTitle = "Task | Time Tracker";
 $page = "tasks";
 $project_id = $title = $date = $time = '';
@@ -83,8 +84,8 @@ include 'inc/header.php';
                     </tr>
                     <tr>
                         <th><label for="date">Date<span class="required">*</span></label></th>
-                        <td><input type="text" id="date" name="date" value="<?php echo htmlspecialchars($date); ?>" placeholder="mm/dd/yyyy"/></td>
-                    </tr>
+                        <td><input type="text" id="datepicker" name="datepicker" value="<?php echo htmlspecialchars($date); ?>" placeholder="mm/dd/yyyy"/></td>
+                
                     <tr>
                         <th><label for="time">Time<span class="required">*</span></label></th>
                         <td><input type="text" id="time" name="time" value="<?php echo htmlspecialchars($time); ?>"/> minutes</td>
@@ -96,7 +97,7 @@ include 'inc/header.php';
                 }
                 ?>
                 <input class="button button--primary button--topic-php" type="submit" value="Submit"/>
-                <p>floci</p>
+             
             </form>
         </div>
     </div>

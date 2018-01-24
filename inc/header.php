@@ -5,8 +5,13 @@
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="inc/jsfunctions.js"></script>
 </head>
 <body>
+
 
   <svg style="display: none;">
     <defs>

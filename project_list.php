@@ -1,6 +1,8 @@
 <?php
 require 'inc/functions.php';
 
+
+
 $page = "projects";
 $pageTitle = "Project List | Time Tracker";
 
