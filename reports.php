@@ -3,7 +3,7 @@ require 'inc/functions.php';
 
 $page = "reports";
 $pageTitle = "Reports | Time Tracker";
-$filter = 'all';
+$filter = "all";
 
 if(!empty($_GET['filter'])){
     $filter = explode(':',filter_input(INPUT_GET, 'filter', FILTER_SANITIZE_STRING));

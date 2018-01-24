@@ -84,7 +84,7 @@ include 'inc/header.php';
                     </tr>
                     <tr>
                         <th><label for="date">Date<span class="required">*</span></label></th>
-                        <td><input type="text" id="datepicker" name="datepicker" value="<?php echo htmlspecialchars($date); ?>" placeholder="mm/dd/yyyy"/></td>
+                        <td><input type="text" id="datepicker" name="datepicker" value="<?php echo htmlspecialchars($date); ?>" placeholder="dd/mm/yyyy"/></td>
                 
                     <tr>
                         <th><label for="time">Time<span class="required">*</span></label></th>
